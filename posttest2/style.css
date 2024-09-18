@@ -1,0 +1,166 @@
+.utama {
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    background-color: #ebaf6b;
+}
+
+.container{
+    display: grid;
+    gap: 32px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    height: 450px;
+    width: auto;
+    margin: 25px;
+    max-width: 800px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 2px 4px 10px 2px #000000;
+}
+
+.konten_kiri {
+    display: flex;
+    flex-direction: column;
+    display: grid;
+    gap: 32px;
+}
+
+.konten_kanan {
+    min-width: 70px;
+}
+
+.header_judul {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    padding: 13px;
+}
+
+.isi_konten {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.tanggal {
+    padding: 8px;
+    width: auto;
+    height: 80px;
+    background-color: #f0f0f0e3;
+    border-radius: 10px;
+    box-shadow: 2px 4px 10px 2px #ebaf6b;
+}
+
+.no_order {
+    padding: 8px;
+    width: auto;
+    height: 80px;
+    background-color: #f0f0f0e3;
+    border-radius: 10px;
+    box-shadow: 2px 4px 10px 2px #ebaf6b;
+}
+
+.pembayaran {
+    padding: 8px;
+    width: auto;
+    height: 80px;
+    background-color: #f0f0f0e3;
+    border-radius: 10px;
+    box-shadow: 2px 4px 10px 2px #ebaf6b;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    border-radius: 12px;
+    width: 80px;
+    height: 80px;
+    box-shadow: 2px 4px 10px 2px #ebaf6b;
+}
+
+
+.makanan {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.makanan_detail {
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.makanan_harga {
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.minuman {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.minuman_detail {
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.minuman_harga {
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.total {
+    background-color: #f0f0f0e3;
+    display: flex;
+    border-radius: 30px;
+    height: auto;
+    width: auto;
+    margin: 25px ;
+    max-width: 500px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 2px 4px 10px 2px #000000;
+}
+
+h2 {
+    padding: 12px;
+    margin: auto;
+}
+
+.terimakasih {
+    padding: 24px;
+    font-weight: bold;
+    font-size: 30px;
+    width: 100%;
+}
+
+.info_pembeli {
+    padding: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.total_harga {
+    padding: 12px;
+}
+
+@media (max-width: 600px ) {
+
+    .container {
+    width: 100%;
+    }
+
+    .terimakasih{
+    width: 100%;
+    }
+
+}
