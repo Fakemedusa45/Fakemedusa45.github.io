@@ -49,6 +49,10 @@ body{
     transition: 0.3s ease;
   }
 
+  .test{
+    position: relative;
+  }
+
   .hero-section {
     position: relative;
     display: flex;
@@ -62,7 +66,7 @@ body{
     background-position: center;
     background-attachment: fixed;
     text-align: center;
-    background-image: url(img/_DSC0752.webp);
+    background-image: url("img/_DSC0752.webp");
   }
   
   .swap-hamburger {
