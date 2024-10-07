@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    justify-content: center;
+    }
+
+.utama-banget {
+    display: flex;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+    padding-top: 65px;
+}
+
+.utama {
+    background-color: #ffffff;
+    padding: 25px 25px;
+    justify-content: center;
+    width: 80vw;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 1px 2px 16px 0px #000000;
+    text-align: center;
+}
+
+.aksi{
+    color: #ffffff;
+}
+
+.aksi:hover{
+    color: red;
+}
+
+table.darkTable {
+    border: 2px solid #000000;
+    background-color: #3F3F3F;
+    height: 200%;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+  }
+  table.darkTable td, table.darkTable th {
+    border: 1px solid #4A4A4A;
+    padding: 3px 2px;
+  }
+  table.darkTable tbody td {
+    font-size: 14px;
+    color: #E6E6E6;
+  }
+  table.darkTable tr:nth-child(even) {
+    background: #888888;
+  }
+  table.darkTable thead {
+    background: #000000;
+    border-bottom: 3px solid #000000;
+  }
+  table.darkTable thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #E6E6E6;
+    text-align: center;
+    border-left: 1px solid #4A4A4A;
+  }
+  table.darkTable thead th:first-child {
+    border-left: none;
+  }
+  
+  table.darkTable tfoot td {
+    font-size: 12px;
+  }
+
+  .btn {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px 44px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-outline {
+    background-color: transparent;
+    border: 1px solid #4ba3e3;
+    color: #4ba3e3;
+}
+
+.btn-outline:hover {
+    background-color: #4ba3e3;
+    color: #fff;
+}
+ 
